@@ -1,0 +1,524 @@
+@charset "UTF-8";
+body {
+  font-size: 62.5%;
+  text-align: center;
+  background: #fff;
+  font-family: Arial, Roboto, "Droid Sans", "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+}
+
+body img {
+  max-width: 100%;
+}
+
+body ul li {
+  list-style: none;
+}
+
+header, main, footer {
+  width: 100%;
+  overflow: hidden;
+}
+
+.container {
+  padding: 0;
+}
+
+.row {
+  margin: 0;
+}
+
+.col, .col-3, .col-4, .col-6,
+.col-auto {
+  padding: 0;
+}
+
+.marginLeftClear {
+  margin-left: 0;
+}
+
+a.anchor {
+  display: block;
+  padding-top: 4rem;
+  margin-top: -4rem;
+}
+
+p {
+  color: #555;
+}
+
+header {
+  position: fixed;
+  background: #fff;
+  z-index: 10;
+  max-height: 4rem;
+}
+
+header .col-4 {
+  margin: auto 0;
+}
+
+header .headerLogo {
+  margin: 0.7rem 0 0 0;
+}
+
+main {
+  padding-top: 4rem;
+}
+
+main h2.h2Style {
+  font-size: 1.25rem;
+  color: #555;
+  padding: 2rem 0 1rem 0;
+  margin: 0;
+  font-weight: normal;
+  font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN","HG明朝E","ＭＳ Ｐ明朝","ＭＳ 明朝",serif;
+}
+
+.paddingStyle1 {
+  padding: 0 0.7rem;
+}
+
+.paddingStyle2 {
+  padding: 0 1.3rem;
+}
+
+.paddingStyle3 {
+  padding: 0.5rem;
+}
+
+.marginStyle1 {
+  margin: 0 0.7rem;
+}
+
+.marginStyle2 {
+  margin: 2.5rem 1.9rem 6rem 1.9rem;
+}
+
+.marginStyle3 {
+  margin: 2.5rem 1.9rem 3rem 1.9rem;
+}
+
+.marginStyle4 {
+  margin: 0 0 0 2rem;
+}
+
+.textStyel1 {
+  font-size: 0.85rem;
+  margin: 0.5rem 0;
+}
+
+.textStyel2 {
+  font-size: 0.85rem;
+  text-align: left;
+  line-height: 1.2rem;
+}
+
+.textStyel3 {
+  font-size: 0.8rem;
+  margin: 0.3rem 0 0.8rem 0;
+}
+
+.textStyel4 {
+  font-size: 1rem;
+}
+
+.textStyel5 {
+  font-size: 0.9rem;
+  width: 4.3rem;
+  font-weight: bold;
+  margin-top: 0.4rem;
+}
+
+.btnLesson {
+  background: #006faf;
+  border-radius: 25px;
+  margin: 1rem 0.5rem 0.7rem 0.5rem;
+}
+
+.btnLesson a {
+  display: block;
+  color: #fff;
+  padding: 0.7rem;
+  font-size: 0.88rem;
+}
+
+.brownButton {
+  color: #fff;
+  background: #ab9870;
+  text-align: center;
+  width: 35%;
+  margin: 2rem auto 0 auto;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 0.7rem 0;
+  border-radius: 8px;
+}
+
+.corona {
+  background: #fff;
+  border: 2px solid #e64000;
+  color: #e64000;
+  padding: 1.7rem 1rem;
+  margin: 1rem 3rem;
+  font-size: 0.85rem;
+}
+
+.reservation {
+  margin: 3rem 0 0 0;
+}
+
+.reservation .telbox {
+  border: 1px solid #0070bc;
+  padding: 1.5rem 0;
+  margin: 1rem 1.2rem 1.5rem 1.2rem;
+  border-radius: 20px;
+  font-size: 1.2rem;
+}
+
+.reservation .telbox p {
+  color: #0070bc;
+}
+
+.reservation .telbox a {
+  display: block;
+  padding-top: 0.6rem;
+  color: #0070bc;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.reservation .btn_form {
+  padding: 0 1.3rem;
+  margin: 0.5rem 0 0 0;
+}
+
+.menu p {
+  font-size: 0.9rem;
+  padding-top: 2rem;
+}
+
+.menu ul {
+  text-align: left;
+  border: 1px solid #cecece;
+  margin: 1rem 0.7rem;
+}
+
+.menu ul li {
+  list-style: none;
+  text-decoration: underline;
+  font-size: 0.85rem;
+  padding: 1rem 0 0 1.3rem;
+}
+
+.menu ul li:first-child {
+  padding-top: 1.3rem;
+}
+
+.menu ul li:last-child {
+  padding-bottom: 1.5rem;
+}
+
+.menu ul li a {
+  color: #555;
+}
+
+.point {
+  background: #eef1f3;
+  padding-bottom: 1.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.point h2 {
+  font-size: 1.25rem;
+  color: #555;
+  padding: 2rem 0 1rem 0;
+  font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN","HG明朝E","ＭＳ Ｐ明朝","ＭＳ 明朝",serif;
+}
+
+.point li {
+  font-size: 0.85rem;
+  padding: 0.8rem 0.6rem;
+}
+
+.point2 {
+  background: #fff;
+}
+
+.lessonInfo h2 {
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin-bottom: 2.5rem;
+}
+
+.lessonInfo h3 {
+  font-size: 1.1rem;
+  margin: 0.7rem 0 1rem 0;
+}
+
+.lessonInfo p {
+  line-height: 1.4rem;
+}
+
+.lessonInfo .row {
+  margin: 1rem 0;
+}
+
+.lessonInfo .col-6 {
+  margin-bottom: 1.5rem;
+}
+
+.lessonInfo .leftStyle {
+  padding: 0 0.5rem 0 1rem;
+}
+
+.lessonInfo .rightStyle {
+  padding: 0 1rem 0 0.5rem;
+}
+
+.whatYogaWorks h1 {
+  text-align: left;
+  background: #9fcbd1;
+  padding: 0.5rem 0 0.5rem 1.5rem;
+  margin: 0 0.7rem;
+  font-size: 1.4rem;
+  color: #fff;
+  font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN","HG明朝E","ＭＳ Ｐ明朝","ＭＳ 明朝",serif;
+}
+
+.whatYogaWorks .marginStyle3 {
+  margin-bottom: 1.7rem;
+}
+
+.whatYogaWorks .marginStyle3-1 {
+  margin-top: 1rem;
+}
+
+.whatYogaWorks .marginStyle3-2 {
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+}
+
+.zenVoice {
+  background: #ecf8ff;
+  margin: 0 0.7rem;
+  text-align: left;
+  /*中身を非表示にしておく*/
+  /*クリックで中身表示*/
+}
+
+.zenVoice .row {
+  margin: 0;
+}
+
+.zenVoice img {
+  padding: 0.3rem;
+}
+
+.zenVoice .col {
+  padding: 0 0 0 0.5rem;
+  margin: auto 0;
+}
+
+.zenVoice .col-3 {
+  text-align: center;
+  max-width: 20%;
+}
+
+.zenVoice h4 {
+  font-size: 0.8rem;
+}
+
+.zenVoice p {
+  font-size: 0.7rem;
+}
+
+.zenVoice .hidden_box input {
+  display: none;
+}
+
+.zenVoice .hidden_box .hidden_show {
+  height: 0;
+  padding: 0;
+  overflow: hidden;
+  opacity: 0;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+}
+
+.zenVoice .hidden_box input:checked ~ .hidden_show {
+  padding: 10px 0;
+  height: auto;
+  opacity: 1;
+}
+
+.video {
+  padding: 1.3rem 0;
+}
+
+.flow {
+  background: #eef1f3;
+  position: relative;
+}
+
+.flow > p {
+  padding-top: 0.8rem;
+  font-size: 0.75rem;
+  font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN","HG明朝E","ＭＳ Ｐ明朝","ＭＳ 明朝",serif;
+}
+
+.flow .row {
+  margin-top: 0;
+}
+
+.flow .row .col-6 {
+  margin-bottom: 0.5rem;
+}
+
+.flow .flow1, .flow .flow2 {
+  background: #fff;
+  text-align: left;
+}
+
+.flow .flow1 h2, .flow .flow2 h2 {
+  font-size: 1.5rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+.flow .flow1::before {
+  content: "";
+  position: absolute;
+  top: 23.2%;
+  left: 50%;
+  margin-left: -15px;
+  border: 15px solid transparent;
+  border-top: 15px solid #fff;
+}
+
+.flow .flow2 .dayflow {
+  margin-top: 1.5rem;
+}
+
+.flow .flow2 .dayflow h4 {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.flow .flow2 .dayflow h4 > span {
+  color: #ab9870;
+}
+
+.flow .flow2 .dayflow img {
+  padding-top: 1.5rem;
+  padding-right: 1rem;
+}
+
+.flow .h2Style {
+  padding: 0 0.7rem 0.5rem 0.7rem;
+}
+
+.flow .h2Style > span {
+  font-size: 2rem;
+  margin: 0 0.3em 0 0;
+}
+
+.flow ul {
+  margin-top: 1.2rem;
+  margin-bottom: 3rem;
+}
+
+.flow ul li {
+  font-size: 1.1rem;
+  position: relative;
+  padding: 0.4rem 0 0 0.8rem;
+}
+
+.flow ul li::before {
+  content: "・";
+  color: #ab9870;
+  font-size: 1.8rem;
+  position: absolute;
+  top: 0;
+  left: -3%;
+}
+
+.studiList h2.h2Style {
+  margin-top: 2.3rem;
+}
+
+.studiList h3 {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin: 2.5rem 0;
+}
+
+.studiList p {
+  text-align: left;
+}
+
+.studiList .areaButton {
+  font-size: 0.75rem;
+  padding: 0.6rem;
+  margin: 0 0.2rem;
+  width: 3.5rem;
+  border-radius: 3px;
+}
+
+.studiList .areaButton a {
+  color: #fff;
+}
+
+.studiList .aqua {
+  background: #78b3d6;
+}
+
+.studiList .blue {
+  background: #007ec8;
+}
+
+.studiList .listBkColor {
+  background: #f5f5f5;
+}
+
+.studiList .row {
+  margin: 0;
+}
+
+.studiList .row .col-auto p {
+  text-align: center;
+}
+
+footer {
+  height: 6rem;
+  position: relative;
+}
+
+footer .copyright {
+  padding: 2rem 0 0.9rem 0;
+}
+
+footer img {
+  max-width: 30%;
+}
+
+footer #pagetop {
+  position: fixed;
+  bottom: 6%;
+  left: 86%;
+  width: 9%;
+  -webkit-transition: all 300ms 0s ease;
+  transition: all 300ms 0s ease;
+}
+
+footer .invisible {
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+  visibility: hidden;
+  opacity: 0;
+}
+
+footer .unInvisible {
+  visibility: visible;
+  opacity: 1;
+}
+/*# sourceMappingURL=styles.css.map */

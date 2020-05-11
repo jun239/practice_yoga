@@ -1,0 +1,491 @@
+body {
+  font-size: 62.5%;
+  text-align: center;
+  background: #fff;
+  font-family: Arial, Roboto, "Droid Sans", "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+  img {
+    max-width: 100%;
+  }
+  ul li {
+    list-style: none;
+  }
+}
+// 右の余白を削除
+header, main, footer {
+  width:100%;
+  overflow:hidden;
+}
+// containerのpadding削除
+.container {
+  padding: 0;
+}
+// rowのmargin削除
+.row {
+  margin: 0;
+}
+// colのpadding削除
+.col,.col-3,.col-4,.col-6,
+.col-auto {
+  padding: 0;
+}
+// marginClear
+.marginLeftClear {
+  margin-left: 0;
+}
+
+a.anchor{
+  display: block;
+  padding-top: 4rem;
+  margin-top: -4rem;
+}
+
+// 変数
+$cBtn: #006faf;
+$cBtn2: #0070bc;
+$cBtn3: #ab9870;
+$cBtn4: #78b3d6;
+$cBtn5: #007ec8;
+$cCorona: #e64000;
+$cMenu: #cecece;
+$cText: #555;
+$cBackGround: #eef1f3;
+$cBackGround2: #9fcbd1;
+$cBackGround3: #ecf8ff;
+$cBackGround4: #eef1f3;
+$cBackGround5: #f5f5f5;
+
+// スマホsetting-start
+p {
+  color: $cText;
+}
+header {
+  position: fixed;
+  background: #fff;
+  z-index: 10;
+  max-height: 4rem;
+  .col-4 {
+    margin: auto 0;
+  }
+  .headerLogo {
+    margin: 0.7rem 0 0 0;
+  }
+}
+main {
+  padding-top: 4rem;
+  h2.h2Style {
+    font-size: 1.25rem;
+    color: $cText;
+    padding: 2rem 0 1rem 0;
+    margin: 0;
+    font-weight: normal;
+    font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN","HG明朝E","ＭＳ Ｐ明朝","ＭＳ 明朝",serif;
+  }
+}
+// paddingStyle-start
+.paddingStyle1 {
+  padding: 0 0.7rem;
+}
+.paddingStyle2 {
+  padding: 0 1.3rem;
+}
+.paddingStyle3 {
+  padding: 0.5rem;
+}
+// paddingStyle-end
+
+// marginStyle-start
+.marginStyle1 {
+  margin: 0 0.7rem;
+}
+.marginStyle2 {
+  margin: 2.5rem 1.9rem 6rem 1.9rem;
+}
+.marginStyle3 {
+  margin: 2.5rem 1.9rem 3rem 1.9rem;
+}
+.marginStyle4 {
+  margin: 0 0 0 2rem;
+}
+// marginStyle-end
+
+// textStyle-start
+.textStyel1 {
+  font-size: 0.85rem;
+  margin: 0.5rem 0;
+}
+.textStyel2 {
+  font-size: 0.85rem;
+  text-align: left;
+  line-height: 1.2rem;
+}
+.textStyel3 {
+  font-size: 0.8rem;
+  margin: 0.3rem 0 0.8rem 0;
+}
+.textStyel4 {
+  font-size: 1rem;
+}
+.textStyel5 {
+  font-size: 0.9rem;
+  width: 4.3rem;
+  font-weight: bold;
+  margin-top: 0.4rem;
+}
+// textStyle-end
+// buttonStyle-start
+.btnLesson {
+  background: $cBtn;
+  border-radius: 25px;
+  margin: 1rem 0.5rem 0.7rem 0.5rem;
+  a {
+    display: block;
+    color: #fff;
+    padding: 0.7rem;
+    font-size: 0.88rem;
+  }
+}
+.brownButton {
+  color: #fff;
+  background: $cBtn3;
+  text-align: center;
+  width: 35%;
+  margin: 2rem auto 0 auto;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 0.7rem 0;
+  border-radius: 8px;
+}
+// buttonStyle-end
+
+// コロナ対応について
+.corona {
+  background: #fff;
+  border: 2px solid $cCorona;
+  color: $cCorona;
+  padding: 1.7rem 1rem;
+  margin: 1rem 3rem;
+  font-size: 0.85rem;
+}
+
+// 予約
+.reservation {
+  margin: 3rem 0 0 0;
+  .telbox {
+    border: 1px solid $cBtn2;
+    padding: 1.5rem 0;
+    margin: 1rem 1.2rem 1.5rem 1.2rem;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    p {
+      color: $cBtn2;
+    }
+    a {
+      display: block;
+      padding-top: 0.6rem;
+      color: $cBtn2;
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+  }
+  .btn_form {
+    padding: 0 1.3rem;
+    margin: 0.5rem 0 0 0;
+  }
+}
+
+// menu
+.menu {
+  p {
+    font-size: 0.9rem;
+    padding-top: 2rem;
+  }
+  ul {
+    text-align: left;
+    border: 1px solid $cMenu;
+    margin: 1rem 0.7rem;
+    li {
+      list-style: none;
+      text-decoration: underline;
+      font-size: 0.85rem;
+      padding: 1rem 0 0 1.3rem;
+      &:first-child {
+        padding-top: 1.3rem;
+      }
+      &:last-child {
+        padding-bottom: 1.5rem;
+      }
+      a  {
+        color: $cText;
+      }
+    }
+  }
+}
+
+// point
+.point {
+  background: $cBackGround;
+  padding-bottom: 1.3rem;
+  margin-bottom: 0.5rem;
+  h2 {
+    font-size: 1.25rem;
+    color: $cText;
+    padding: 2rem 0 1rem 0;
+    font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN","HG明朝E","ＭＳ Ｐ明朝","ＭＳ 明朝",serif;
+  }
+  li {
+    font-size: 0.85rem;
+    padding: 0.8rem 0.6rem;
+  }
+}
+.point2 {
+  background: #fff;
+}
+
+// レッスン紹介
+.lessonInfo {
+  h2 {
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin-bottom: 2.5rem;
+  }
+  h3 {
+    font-size: 1.1rem;
+    margin: 0.7rem 0 1rem 0;
+  }
+  p {
+    line-height: 1.4rem;
+  }
+  .row {
+    margin: 1rem 0;
+  }
+  .col-6 {
+    margin-bottom: 1.5rem;
+  }
+  .leftStyle {
+    padding: 0 0.5rem 0 1rem;
+  }
+  .rightStyle {
+    padding: 0 1rem 0 0.5rem;
+  }
+}
+
+// ヨガワークスとは
+.whatYogaWorks {
+  h1 {
+    text-align: left;
+    background: $cBackGround2;
+    padding: 0.5rem 0 0.5rem 1.5rem;
+    margin: 0 0.7rem;
+    font-size: 1.4rem;
+    color: #fff;
+    font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN","HG明朝E","ＭＳ Ｐ明朝","ＭＳ 明朝",serif;
+  }
+  .marginStyle3 {
+    margin-bottom: 1.7rem;
+  }
+  .marginStyle3-1 {
+    margin-top: 1rem;
+  }
+  .marginStyle3-2 {
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+  }
+}
+
+// 会員様の声
+.zenVoice {
+  background: $cBackGround3;
+  margin: 0 0.7rem;
+  text-align: left;
+  .row {
+    margin: 0;
+  }
+  img {
+    padding: 0.3rem;
+  }
+  .col {
+    padding: 0 0 0 0.5rem;
+    margin: auto 0;
+  }
+  .col-3 {
+    text-align: center;
+    max-width: 20%;
+  }
+  h4 {
+    font-size: 0.8rem;
+  }
+  p  {
+    font-size: 0.7rem;
+  }
+  .hidden_box input {
+    display: none;
+}
+/*中身を非表示にしておく*/
+.hidden_box .hidden_show {
+  height: 0;
+  padding: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: 0.8s;
+}
+
+/*クリックで中身表示*/
+.hidden_box input:checked ~ .hidden_show {
+  padding: 10px 0;
+  height: auto;
+  opacity: 1;
+}
+}
+
+// video
+.video {
+  padding: 1.3rem 0;
+}
+
+// 体験の流れについて
+.flow {
+  background: $cBackGround4;
+  position: relative;
+  >p {
+    padding-top: 0.8rem;
+    font-size: 0.75rem;
+    font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN","HG明朝E","ＭＳ Ｐ明朝","ＭＳ 明朝",serif;
+  }
+  .row {
+    margin-top: 0;
+    .col-6 {
+      margin-bottom: 0.5rem;
+    }
+  }
+  .flow1,.flow2 {
+    background: #fff;
+    text-align: left;
+    h2 {
+      font-size: 1.5rem;
+      padding-top: 1.5rem;
+      padding-bottom: 1rem;
+    }
+  }
+  .flow1 {
+    &::before {
+      content: "";
+      position: absolute;
+      top: 23.2%;
+      left: 50%;
+      margin-left: -15px;
+      border: 15px solid transparent;
+      border-top: 15px solid #fff;
+    }
+  }
+  .flow2 {
+    .dayflow {
+      margin-top: 1.5rem;
+      h4 {
+        font-size: 1.1rem;
+        font-weight: bold;
+        >span {
+          color: $cBtn3;
+        }
+      }
+      img {
+        padding-top: 1.5rem;
+        padding-right: 1rem;
+      }
+    }
+  }
+  .h2Style {
+    padding: 0 0.7rem 0.5rem 0.7rem;
+    >span {
+      font-size: 2rem;
+      margin: 0 0.3em 0 0;
+    }
+  }
+  ul {
+    margin-top: 1.2rem;
+    margin-bottom: 3rem;
+    li {
+      font-size: 1.1rem;
+      position: relative;
+      padding: 0.4rem 0 0 0.8rem;
+      &::before {
+        content: "・";
+        color: #ab9870;
+        font-size: 1.8rem;
+        position: absolute;
+        top: 0;
+        left: -3%;
+      }
+    }
+  }
+}
+
+// スタジオ一覧
+.studiList {
+  h2.h2Style {
+    margin-top: 2.3rem;
+  }
+  h3 {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin: 2.5rem 0;
+  }
+  p {
+    text-align: left;
+  }
+  .areaButton {
+    font-size: 0.75rem;
+    padding: 0.6rem;
+    margin: 0 0.2rem;
+    width: 3.5rem;
+    border-radius: 3px;
+    a {
+      color: #fff;
+    }
+  }
+  .aqua {
+    background: $cBtn4;
+  }
+  .blue {
+    background: $cBtn5;
+  }
+  .listBkColor {
+    background: $cBackGround5;
+  }
+  .row {
+    margin: 0;
+    .col-auto {
+      p {
+        text-align: center;
+      }
+    }
+  }
+}
+
+footer {
+  height: 6rem;
+  position: relative;
+  .copyright {
+    padding: 2rem 0 0.9rem 0;
+  }
+  img {
+    max-width: 30%;
+  }
+  #pagetop {
+    position: fixed;
+    bottom: 6%;
+    left: 86%;
+    width: 9%;
+    transition: all 300ms 0s ease;
+  }
+  .invisible {
+    transition: 0.6s;
+    visibility: hidden;
+    opacity: 0;
+  }
+  .unInvisible {
+    visibility: visible;
+    opacity: 1;
+  }
+}
+
+// スマホsetting-end
