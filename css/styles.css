@@ -341,8 +341,35 @@ main h2.h2Style {
   padding: 0;
   overflow: hidden;
   opacity: 0;
-  -webkit-transition: 0.8s;
-  transition: 0.8s;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.zenVoice .msg1 {
+  display: block;
+  text-align: center;
+  font-size: 0.9rem;
+  padding-bottom: 1rem;
+}
+
+.zenVoice .msg1::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f13a";
+  font-weight: 900;
+}
+
+.zenVoice .msg2 {
+  display: none;
+  text-align: right;
+  font-size: 0.85rem;
+  padding: 0 1rem 0.5rem 0;
+  font-weight: normal;
+}
+
+.zenVoice .msg2::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f00d";
+  font-weight: 900;
 }
 
 .zenVoice .hidden_box input:checked ~ .hidden_show {
@@ -351,12 +378,33 @@ main h2.h2Style {
   opacity: 1;
 }
 
+.zenVoice .hidden_box input:checked ~ .msg1 {
+  display: none;
+}
+
+.zenVoice .hidden_box input:checked ~ .msg2 {
+  display: block;
+}
+
+.zenVoice .hidden_show {
+  border-top: 1px solid #688B3E;
+}
+
+.zenVoice .hidden_show p {
+  font-size: 0.87rem;
+}
+
+.marginBotton {
+  margin-bottom: 1rem;
+}
+
 .video {
   padding: 1.3rem 0;
 }
 
 .flow {
   background: #eef1f3;
+  margin-top: 2rem;
   position: relative;
 }
 
