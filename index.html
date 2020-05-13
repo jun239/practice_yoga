@@ -34,8 +34,32 @@
   <!-- header -->
   <header>
     <div class="row">
+
+      
       <div class="col-4">
-        <img id="btn-menu" src="./img/btn-menu.png" alt="btn-menu">
+          <!-- ハンガーガーメニュー -->
+          <div id="nav-drawer">
+            <input id="nav-input" type="checkbox" class="nav-unshown">
+            <label id="nav-open" for="nav-input">
+                <img id="btn-menu" src="./img/btn-menu.png" alt="btn-menu">
+            </label>
+            <label class="nav-unshown" id="nav-close" for="nav-input"></label>
+            <div id="nav-content">
+              <ul class="nav-contents">
+                <li><a href="#">トップページ</a></li>
+                <li><a href="#">はじめての方へ</a></li>
+                <li><a href="#">zen placeとは？</a></li>
+                <li><a href="#">レッスン内容</a></li>
+                <li><a href="#">レッスンスケジュール</a></li>
+                <li><a href="#">講師紹介</a></li>
+                <li><a href="#">スタジオ一覧</a></li>
+                <li><a href="#">よくある質問</a></li>
+                <li><a href="#">料金について</a></li>
+                <li></li>
+              </ul>
+            </div>
+          </div>
+        
       </div>
       <div class="col-4 headerLogo">
         <img id="logo" src="./img/logo.gif" alt="logo">
@@ -54,9 +78,6 @@
       <div id="btnLesson" class="btnLesson"><a href="#">ヨガ体験レッスン</a></div>
       <img src="./img/header.gif" alt="header">
       <img src="./img/slider-welcome-sp.jpg" alt="">
-
-      <!-- コロナ対応について -->
-      <div class="corona">「新型コロナウイルス」への対応について</div>
 
       <!-- 予約 -->
       <div class="reservation">
@@ -84,9 +105,7 @@
       </div>
 
       <!-- video -->
-      <div class="video">
-
-      </div>
+      <video src="./movie/Dubai.mp4" loop autoplay muted controls class="imageVideo"></video>
 
       <img class="paddingStyle1" src="./img/YP_lp1.jpg" alt="YP_lp1">
 
@@ -340,9 +359,9 @@
               <div class="hidden_show marginStyle1">
                 <!--非表示ここから-->
                 <p>
-                    男性も女性も、仕事、スポーツ、健康の為、ヨガをする目的は様々ですが、全ては人生をよりよく生きる為で、ヨガ・ピラティス・瞑想に取り組み自分に意識を向けていくことは誰にとっても大切な事です。<br><br>
+                  男性も女性も、仕事、スポーツ、健康の為、ヨガをする目的は様々ですが、全ては人生をよりよく生きる為で、ヨガ・ピラティス・瞑想に取り組み自分に意識を向けていくことは誰にとっても大切な事です。<br><br>
 
-                    なりたかった自分になるのに遅すぎることはないので、重力に負けない自由な身体・平静なこころを手に入れ、感謝の念が溢れて日々を生き生き過ごしていくことで人生がより豊かになっていくと信じています。
+                  なりたかった自分になるのに遅すぎることはないので、重力に負けない自由な身体・平静なこころを手に入れ、感謝の念が溢れて日々を生き生き過ごしていくことで人生がより豊かになっていくと信じています。
                 </p>
                 <!--ここまで-->
               </div>
@@ -383,7 +402,7 @@
                   <a href="#"><img src="./img/flow_02.png" alt="flow_02"></a>
                 </div>
                 <div class="col-6">
-                  <a href="#"><img src="./img/flow_03.png" alt="flow_03"></a>
+                  <a href="tel:000-1234-5678"><img src="./img/flow_03.png" alt="flow_03"></a>
                 </div>
               </div>
             </div><!-- flow1 -->
@@ -502,7 +521,7 @@
                   </div>
                   <div class="col-auto marginStyle4">
                     <div class="areaButton aqua">
-                      <a href="#">マップ</a>
+                      <a href="https://g.page/zen-yoga_ningyocho?share">マップ</a>
                     </div>
                   </div>
                   <div class="col-auto">
@@ -527,7 +546,7 @@
                   </div>
                   <div class="col-auto marginStyle4">
                     <div class="areaButton aqua">
-                      <a href="#">マップ</a>
+                      <a href="https://goo.gl/maps/Fygacs4jua6xZjUP7">マップ</a>
                     </div>
                   </div>
                   <div class="col-auto">
@@ -552,7 +571,7 @@
                   </div>
                   <div class="col-auto marginStyle4">
                     <div class="areaButton aqua">
-                      <a href="#">マップ</a>
+                      <a href="https://g.page/zen-yoga_myogatani?share">マップ</a>
                     </div>
                   </div>
                   <div class="col-auto">
@@ -577,7 +596,7 @@
                   </div>
                   <div class="col-auto marginStyle4">
                     <div class="areaButton aqua">
-                      <a href="#">マップ</a>
+                      <a href="https://g.page/zen-yoga_nishikasai?share">マップ</a>
                     </div>
                   </div>
                   <div class="col-auto">
@@ -602,7 +621,7 @@
                   </div>
                   <div class="col-auto marginStyle4">
                     <div class="areaButton aqua">
-                      <a href="#">マップ</a>
+                      <a href="https://g.page/zen-hot_meguro?share">マップ</a>
                     </div>
                   </div>
                   <div class="col-auto">
@@ -627,7 +646,7 @@
                   </div>
                   <div class="col-auto marginStyle4">
                     <div class="areaButton aqua">
-                      <a href="#">マップ</a>
+                      <a href="https://g.page/zen-yoga_gotanda?share">マップ</a>
                     </div>
                   </div>
                   <div class="col-auto">
@@ -652,7 +671,7 @@
                   </div>
                   <div class="col-auto marginStyle4">
                     <div class="areaButton aqua">
-                      <a href="#">マップ</a>
+                      <a href="https://g.page/zen-yoga_gakugeidaigaku?share">マップ</a>
                     </div>
                   </div>
                   <div class="col-auto">
@@ -677,7 +696,7 @@
                   </div>
                   <div class="col-auto marginStyle4">
                     <div class="areaButton aqua">
-                      <a href="#">マップ</a>
+                      <a href="https://g.page/zen-yoga_jiyugaoka?share">マップ</a>
                     </div>
                   </div>
                   <div class="col-auto">
@@ -702,7 +721,7 @@
                   </div>
                   <div class="col-auto marginStyle4">
                     <div class="areaButton aqua">
-                      <a href="#">マップ</a>
+                      <a href="https://g.page/zen-yoga_futakotamagawa?share">マップ</a>
                     </div>
                   </div>
                   <div class="col-auto">
@@ -727,7 +746,7 @@
                   </div>
                   <div class="col-auto marginStyle4">
                     <div class="areaButton aqua">
-                      <a href="#">マップ</a>
+                      <a href="https://goo.gl/maps/oSGxvwLrMNYmBA8C7">マップ</a>
                     </div>
                   </div>
                   <div class="col-auto">
@@ -752,7 +771,7 @@
                   </div>
                   <div class="col-auto marginStyle4">
                     <div class="areaButton aqua">
-                      <a href="#">マップ</a>
+                      <a href="https://goo.gl/maps/hfg7Jb8KMTCSzKev7">マップ</a>
                     </div>
                   </div>
                   <div class="col-auto">
@@ -777,7 +796,7 @@
                   </div>
                   <div class="col-auto marginStyle4">
                     <div class="areaButton aqua">
-                      <a href="#">マップ</a>
+                      <a href="https://goo.gl/maps/fpCPqxCiMkUpPxKC6">マップ</a>
                     </div>
                   </div>
                   <div class="col-auto">
@@ -802,7 +821,7 @@
                   </div>
                   <div class="col-auto marginStyle4">
                     <div class="areaButton aqua">
-                      <a href="#">マップ</a>
+                      <a href="https://goo.gl/maps/HdKFRguyKV1AxfdB7">マップ</a>
                     </div>
                   </div>
                   <div class="col-auto">
@@ -827,7 +846,7 @@
                   </div>
                   <div class="col-auto marginStyle4">
                     <div class="areaButton aqua">
-                      <a href="#">マップ</a>
+                      <a href="https://goo.gl/maps/7mPGEGryErBgTWMu8">マップ</a>
                     </div>
                   </div>
                   <div class="col-auto">
@@ -852,7 +871,7 @@
                   </div>
                   <div class="col-auto marginStyle4">
                     <div class="areaButton aqua">
-                      <a href="#">マップ</a>
+                      <a href="https://g.page/zen-yoga_yokohama?share">マップ</a>
                     </div>
                   </div>
                   <div class="col-auto">
@@ -877,7 +896,7 @@
                   </div>
                   <div class="col-auto marginStyle4">
                     <div class="areaButton aqua">
-                      <a href="#">マップ</a>
+                      <a href="https://goo.gl/maps/tadsqpdaC7eAioTf6">マップ</a>
                     </div>
                   </div>
                   <div class="col-auto">
@@ -908,7 +927,7 @@
                   </div>
                   <div class="col-auto marginStyle4">
                     <div class="areaButton aqua">
-                      <a href="#">マップ</a>
+                      <a href="https://goo.gl/maps/qDMRWU35vXAg8ce27">マップ</a>
                     </div>
                   </div>
                   <div class="col-auto">
@@ -933,7 +952,7 @@
                   </div>
                   <div class="col-auto marginStyle4">
                     <div class="areaButton aqua">
-                      <a href="#">マップ</a>
+                      <a href="https://goo.gl/maps/acBHwTMXDLPUeri8A">マップ</a>
                     </div>
                   </div>
                   <div class="col-auto">
@@ -958,7 +977,7 @@
                   </div>
                   <div class="col-auto marginStyle4">
                     <div class="areaButton aqua">
-                      <a href="#">マップ</a>
+                      <a href="https://goo.gl/maps/bNyTS1QNcMPdXoBV8">マップ</a>
                     </div>
                   </div>
                   <div class="col-auto">
@@ -983,7 +1002,7 @@
                   </div>
                   <div class="col-auto marginStyle4">
                     <div class="areaButton aqua">
-                      <a href="#">マップ</a>
+                      <a href="https://goo.gl/maps/Q8mg24d6yiB7aHps9">マップ</a>
                     </div>
                   </div>
                   <div class="col-auto">
@@ -1008,7 +1027,7 @@
                   </div>
                   <div class="col-auto marginStyle4">
                     <div class="areaButton aqua">
-                      <a href="#">マップ</a>
+                      <a href="https://goo.gl/maps/iXgkwqMPHZyopTft6">マップ</a>
                     </div>
                   </div>
                   <div class="col-auto">
