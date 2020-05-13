@@ -101,6 +101,7 @@ a.anchor {
 
 #nav-content .nav-contents a {
   color: #fff;
+  text-decoration: none;
 }
 
 /*チェックがついたら表示させる*/
@@ -660,5 +661,63 @@ footer .invisible {
 footer .unInvisible {
   visibility: visible;
   opacity: 1;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    max-width: 640px;
+    margin: 0 auto;
+  }
+  header {
+    display: none;
+  }
+  main {
+    padding-top: 0;
+  }
+  main h2.h2Style {
+    font-size: 1.5rem;
+  }
+  footer img {
+    max-width: 20%;
+  }
+  .reservation .telbox {
+    max-width: 61%;
+    margin: 1rem auto 1.5rem auto;
+  }
+  .point h2 {
+    font-size: 1.5rem;
+  }
+  .point li {
+    font-size: 1rem;
+  }
+  .lessonInfo h2 {
+    font-size: 1.2rem;
+  }
+  .whatYogaWorks h1 {
+    padding: 0.7rem 0 0.7rem 1.5rem;
+    font-size: 1.5rem;
+  }
+  .zenVoice img {
+    max-width: 80%;
+    padding: 0.6rem 0 0 0;
+  }
+  .zenVoice h4 {
+    font-size: 1.2rem;
+  }
+  .zenVoice p {
+    font-size: 0.73rem;
+  }
+  .flow > p {
+    font-size: 0.9rem;
+  }
+  .flow ul li::before {
+    left: -2%;
+  }
+  .brownButton {
+    width: 22%;
+  }
+  .flow2 > ul {
+    margin-left: 2rem;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
