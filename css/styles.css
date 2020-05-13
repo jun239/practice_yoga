@@ -680,6 +680,10 @@ footer .unInvisible {
   footer img {
     max-width: 20%;
   }
+  footer #pagetop {
+    max-width: 4%;
+    left: 92%;
+  }
   .reservation .telbox {
     max-width: 61%;
     margin: 1rem auto 1.5rem auto;
